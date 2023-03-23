@@ -2,8 +2,9 @@ import pytest
 
 
 def always_returns_true():
-    if 1 != True:
-        return True
+    if False:
+        return False
+    return True
 
 
 def test_always_returns_true():
